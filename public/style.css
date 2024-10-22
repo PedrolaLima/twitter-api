@@ -1,0 +1,155 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #1da1f2;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os títulos secundários */
+h2, h3 {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+/* Caixa de entrada para a busca */
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+}
+
+/* Botão de busca */
+button {
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0d95e8;
+}
+
+/* Container dos resultados da busca */
+#results {
+    margin-top: 20px;
+}
+
+/* Estilo para cada resultado de usuário */
+.user-info {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Avatar do usuário */
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* Informações do usuário */
+.user-info-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Estilo do texto das informações do usuário */
+.user-info-content div {
+    flex-grow: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+
+/* Botão de salvar como favorito */
+#save-btn {
+    background-color: #e74c3c;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#save-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Container dos favoritos */
+#favorites {
+    margin-top: 20px;
+}
+
+/* Estilo para cada favorito */
+.favorite-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo do botão de remover dos favoritos */
+.remove-btn {
+    background-color: #e74c3c;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Melhorando a responsividade para que o layout se ajuste em telas menores */
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .user-info-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
