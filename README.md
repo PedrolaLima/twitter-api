@@ -1,4 +1,4 @@
-#API TWITTER
+# API TWITTER
 
     Essa é uma aplicação que permite buscar perfis de usuários no Twitter e salvar ou remover esses perfis como favoritos.
 
