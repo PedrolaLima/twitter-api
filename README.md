@@ -12,4 +12,4 @@
 - Exibir favoritos: Esta função coleta os favoritos do localStorage, gera o HTML correspondente e exibe o avatar, nome e username de cada favorito. Também adiciona botões para remover os favoritos.
 - Remover favorito: Ao clicar no botão "Remover", o usuário é removido do localStorage e a lista de favoritos é atualizada.
 
-    Para executar, utilize essa URL: https://twitterapi-6dv4.onrender.com/
+    Para executar, utilize essa URL: [https://twitterapi-6dv4.onrender.com/](https://twitter-api-ldqv.onrender.com/)
